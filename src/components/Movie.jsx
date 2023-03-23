@@ -13,12 +13,12 @@ function Movie({ title, year, imdbID, type, poster }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <br />
+
           {imdbID}
         </a>
         <p>
           {" "}
-          <img src={poster} alt={`${title} Poster`} />
+          <img className="image"src={poster} alt={`${title} Poster`} />
         </p>
       </div>
     </div>

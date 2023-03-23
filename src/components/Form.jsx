@@ -16,7 +16,7 @@ function Form({ onSearch, onTypeChange }) {
   };
 
   return (
-    <form>
+    <div>
       <input className="input"
         type="text"
         value={searchValue}
@@ -29,7 +29,7 @@ function Form({ onSearch, onTypeChange }) {
         <option value="game">Game</option>
       </select>
      
-    </form>
+    </div>
   );
 }
 

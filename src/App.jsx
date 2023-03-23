@@ -18,6 +18,7 @@ function App() {
       
       <MovieAPI
       /> 
+      <hr />
       <Footer />
     </div>
    
